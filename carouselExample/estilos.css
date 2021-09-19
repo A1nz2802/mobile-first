@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgrey;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 800px;
+    background-color: white;
+    padding: 30px;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.slider {
+    position: relative;
+    width: 740px;
+    height: 360px;
+}
+
+li img {
+    width: 100%;
+    height: 100%;
+}
+
+.slider li {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    background-color: white;
+    transition: opacity .5s;
+}
+
+.slider li:first-child {
+    opacity: 1;
+}
+
+.slider li:target {
+    opacity: 1;
+}
+
+/* Estilos de los botones */
+.menu{
+    text-align: center;
+    margin: 20px;
+}
+  
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+  
+.menu li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+    border-radius: 100%;
+}
+
+
+
+
+
+
+

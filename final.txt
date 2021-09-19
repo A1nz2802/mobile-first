@@ -1,0 +1,8 @@
+### Link del proyecto en Figma ###
+- https://www.figma.com/proto/sMmlQaZldfDcLERYYWe6h4/Bata-Bit?node-id=44%3A594&scaling=scale-down
+- Cualquier pantalla solo debe tener 1 H1 por temas de CEO
+- Para este caso, la etiqueta Header no es una etiqueta que vayamos a replicar por lo tanto no necesita una clase
+- La etiqueta DIV es extremadamente común por lo tanto si se necesita asignarle una clase. DIV es una etiqueta comodín que se utiliza cuando ya no existe
+una etiqueta que semánticamente nos diga en donde estamos.
+- Position: https://learnlayout.com/position.html
+- Página para ver como se modifica el frontend en diferentes resoluciones simultaneamente: https://responsively.app/
