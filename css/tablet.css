@@ -1,0 +1,40 @@
+.plansContainer__slider {
+    justify-content: center;
+}
+
+.productDetail {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.productDetail__title {
+    flex: 100%;
+}
+
+.cardsContainer {
+   flex: 50%;
+}
+
+.productDetail__batataIcon {
+    margin-top: -480px;
+}
+
+.plansContainer__slider::-webkit-scrollbar-thumb {
+    background-color: var(--just-white);
+}
+
+.tableContainer {
+    overflow: unset;
+    max-width: 600px;
+}
+
+.tableContainer__item {
+    width: 100%;
+}
+
+.tableContainer__nextIcon, .tableContainer__prevIcon {
+    visibility: hidden;
+}
+
